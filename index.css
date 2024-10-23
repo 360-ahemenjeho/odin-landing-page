@@ -26,6 +26,11 @@ body {
     background-color: #FFFFFF;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 /* CONFIGURATION START */
 .container {
     width: 70%;
@@ -162,19 +167,37 @@ header span {
 }
 
 .mysteries h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
     color: var(--primary-dark);
+    margin-bottom: 10px;
 }
 
 .mysteries .card img {
-    height: 140px;
+    height: 260px;
     width: 100%;
     border: 1px solid var(--primary);
     border-radius: var(--round-sm);
     object-fit: cover;
     display: block;
     margin-bottom: 4px;
+}
+
+.mysteries .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.mysteries .card p {
+    color: var(--primary-dark);
+    text-align: center;
+    font-weight: 500;
+    line-height: 1;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 1rem;
 }
 
 /* MYSTERIES END */
