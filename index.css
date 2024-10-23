@@ -51,7 +51,7 @@ li {
 /* BUTTON START */
 button {
     position: relative;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     font-size: var(--button-font-size);
     border-radius: var(--round-sm);
     color: #FFFFFF;
@@ -132,3 +132,37 @@ header span {
 }
 
 /* HEADER END */
+
+/* HERO START */
+.hero {
+    min-height: 30vh;
+    padding: 70px 0;
+}
+
+.hero .container.hero-in {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 40px;
+}
+
+.hero img {
+    max-width: 70%;
+    max-height: 240px;
+    display: block;
+    margin: 0 auto;
+    border-radius: var(--round-sm);
+}
+
+.hero h1 {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+
+.hero p {
+    color: var(--secondary);
+    margin: 10px 0;
+}
+
+/* HERO END */
