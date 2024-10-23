@@ -23,7 +23,7 @@ body {
 }
 
 body {
-    background-color: var(--primary-dark);
+    background-color: #FFFFFF;
 }
 
 /* CONFIGURATION START */
@@ -51,6 +51,10 @@ li {
 /* BUTTON START */
 button {
     position: relative;
+    overflow: hidden;
+}
+
+button {
     padding: 0.5rem 1.5rem;
     font-size: var(--button-font-size);
     border-radius: var(--round-sm);
@@ -107,6 +111,7 @@ button:hover::before {
 /* HEADER START */
 header {
     padding: 20px 0;
+    background-color: var(--primary-dark);
 }
 
 header .container.header-wrap {
@@ -137,6 +142,7 @@ header span {
 .hero {
     min-height: 30vh;
     padding: 70px 0;
+    background-color: var(--primary-dark);
 }
 
 .hero .container.hero-in {
