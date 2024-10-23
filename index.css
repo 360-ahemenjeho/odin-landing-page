@@ -114,11 +114,17 @@ header .container.header-wrap {
 header nav ul {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 header nav a {
     color: var(--secondary);
+}
+
+header span {
+    color: var(--brand-light);
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 /* HEADER END */
