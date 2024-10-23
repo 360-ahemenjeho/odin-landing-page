@@ -91,23 +91,6 @@ button:hover::before {
 
 /* BUTTON END */
 
-/* CARD START */
-.card {
-    border: 1px solid var(--primary);
-    border-radius: var(--round-sm);
-    overflow: hidden;
-}
-
-.card.pad {
-    padding: 0.5rem;
-}
-
-.card.no-overflow {
-    overflow: visible;
-}
-
-/* CARD END */
-
 /* HEADER START */
 header {
     padding: 20px 0;
@@ -172,3 +155,26 @@ header span {
 }
 
 /* HERO END */
+
+/* MYSTERIES START */
+.mysteries {
+    padding: 40px;
+}
+
+.mysteries h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--primary-dark);
+}
+
+.mysteries .card img {
+    height: 140px;
+    width: 100%;
+    border: 1px solid var(--primary);
+    border-radius: var(--round-sm);
+    object-fit: cover;
+    display: block;
+    margin-bottom: 4px;
+}
+
+/* MYSTERIES END */
