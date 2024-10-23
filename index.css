@@ -105,6 +105,10 @@ button:hover::before {
 /* CARD END */
 
 /* HEADER START */
+header {
+    padding: 20px 0;
+}
+
 header .container.header-wrap {
     display: flex;
     align-items: center;
