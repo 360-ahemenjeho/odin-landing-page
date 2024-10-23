@@ -193,7 +193,7 @@ header span {
 .mysteries .card p {
     color: var(--primary-dark);
     text-align: center;
-    line-height: 1;
+    line-height: 1.5;
     width: 80%;
     margin: 0 auto;
     margin-top: 10px;
