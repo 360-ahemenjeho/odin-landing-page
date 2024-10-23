@@ -223,7 +223,7 @@ header span {
 
 /* CTA START */
 .cta {
-    padding: 60px;
+    padding: 40px;
 }
 
 .cta .banner {
@@ -245,3 +245,13 @@ header span {
 }
 
 /* CTA END */
+
+/* FOOTER START */
+footer {
+    padding: 20px;
+    background: var(--primary-dark);
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* FOOTER END */
