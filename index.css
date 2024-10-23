@@ -9,6 +9,7 @@
     --brand-light: #F9FAF8;
     --button-font-size: 0.75rem;
     --round-sm: 0.25rem;
+    --font-size: 0.875rem;
 }
 
 *,
@@ -18,11 +19,34 @@ body {
     margin: 0;
     padding: 0;
     font-family: var(--font-primary);
+    font-size: var(--font-size);
 }
 
 body {
     background-color: var(--primary-dark);
 }
+
+/* CONFIGURATION START */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* CONFIGURATION END */
+
 
 /* BUTTON START */
 button {
@@ -79,3 +103,22 @@ button:hover::before {
 }
 
 /* CARD END */
+
+/* HEADER START */
+header .container.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header nav a {
+    color: var(--secondary);
+}
+
+/* HEADER END */
